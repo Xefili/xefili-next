@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+    --color-dark-background: #121212;
+
+    --color-dark-surface: #1e1e1e;
+    --color-dark-el-surface: #2c2c2c;
+    --color-dark-mod-surface: #363636;
+
+    --color-dark-seperator: #444444;
+
+
+    --color-light-background: #f0f2f5;
+
+    --color-light-surface: #ffffff;
+    --color-light-el-surface: #dfdfdf;
+    --color-light-mod-surface: #afafaf;
+
+    --color-light-seperator: #dddddd;
+
+    --color-gradient-start: #4e82ee;
+    --color-gradient-middle: #d96570;
+    --color-gradient-end: #a371bf;
+
+    --default-font-family: "Plus Jakarta Sans", sans-serif;
+    --font-bold: "Plus Jakarta Sans Extrabold", sans-serif;
+}
+
+@font-face {
+    font-family: "Plus Jakarta Sans";
+    src: url("../assets/PlusJakartaSans-Regular.ttf")format(truetype);
+}
+@font-face {
+    font-family: "Plus Jakarta Sans Extrabold";
+    src: url("../assets/PlusJakartaSans-ExtraBold.ttf")format(truetype);
+}
