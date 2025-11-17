@@ -17,7 +17,7 @@ provide("blog-data", articles);
 </script>
 
 <template>
-    <div v-for="(item, index) in articles" class="dark:text-white w-full">
+    <div v-for="item in articles" class="dark:text-white w-full">
         <MoreArticles :article-i-d="item.idt" class="w-full bg-light-el-surface dark:bg-dark-el-surface"/>
     </div>
 </template>

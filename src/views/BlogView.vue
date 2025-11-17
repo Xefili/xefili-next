@@ -14,7 +14,7 @@ import BlogDrawer from '@/components/BlogDrawer.vue';
             </div>
 
             <Suspense>
-                <BlogDrawer>
+                <BlogDrawer class="w-full">
                     <slot></slot>
                 </BlogDrawer>
             </Suspense>
