@@ -24,6 +24,7 @@
 
     --default-font-family: "Plus Jakarta Sans", sans-serif;
     --font-bold: "Plus Jakarta Sans Extrabold", sans-serif;
+    --font-mono: "Jetbrains Mono", monospace;
 }
 
 @font-face {
@@ -33,4 +34,8 @@
 @font-face {
     font-family: "Plus Jakarta Sans Extrabold";
     src: url("../assets/PlusJakartaSans-ExtraBold.ttf")format(truetype);
+}
+@font-face {
+    font-family: "Jetbrains Mono";
+    src: url("../assets/JetBrainsMono-Regular.woff2")format(woff2);
 }
