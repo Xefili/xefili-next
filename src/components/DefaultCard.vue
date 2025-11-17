@@ -6,7 +6,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="bg-light-surface dark:bg-dark-surface dark:text-white w-68 h-48 rounded-xl p-2 relative">
+    <div class="bg-light-surface dark:bg-dark-surface hover:bg-light-el-surface dark:hover:bg-dark-el-surface transition-all duration-150 dark:text-white w-68 h-48 rounded-xl p-2 relative">
         <h2 id="title" class="font-bold">{{ title }}</h2>
         <div class="w-full border-t border-light-seperator dark:border-dark-seperator"></div>
         <slot></slot>
