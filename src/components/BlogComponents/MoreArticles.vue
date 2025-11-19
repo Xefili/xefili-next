@@ -14,7 +14,8 @@ if(!(articles.length <= props.articleID)) {
 }
 
 function linkTo() {
-    router.push(`/read/${props.articleID}`)
+    let id = articles.length - props.articleID;
+    router.push(`/blog/read/${id}`)
 }
 </script>
 

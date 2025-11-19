@@ -2,7 +2,7 @@
 import FeaturedArticle from './FeaturedArticle.vue';
 import MoreArticles from './MoreArticles.vue';
 import { provide } from 'vue';
-import BlogDrawerMainSkeleton from './Skeletons/BlogDrawerMainSkeleton.vue';
+import BlogDrawerMainSkeleton from '@/components/Skeletons/BlogDrawerMainSkeleton.vue';
 
 var unloaded = false
 
@@ -13,6 +13,7 @@ try {
     })
 
     provide("blog-data", articles);
+    unloaded = !unloaded
 } catch(error) {
 
 }

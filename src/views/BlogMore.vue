@@ -1,6 +1,6 @@
 <script setup>
 import HeaderBar from '@/components/HeaderBar.vue';
-import BlogDrawerAll from '@/components/BlogDrawerAll.vue';
+import BlogDrawerAll from '@/components/BlogComponents/BlogDrawerAll.vue';
 import StylizedHeading from '@/components/StylizedHeading.vue';
 </script>
 

@@ -1,7 +1,7 @@
 <script setup>
 import StylizedHeading from '@/components/StylizedHeading.vue';
 import HeaderBar from '../components/HeaderBar.vue';
-import BlogDrawer from '@/components/BlogDrawer.vue';
+import BlogDrawer from '@/components/BlogComponents/BlogDrawer.vue';
 </script>
 
 <template>
