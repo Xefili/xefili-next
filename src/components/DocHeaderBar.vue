@@ -14,11 +14,13 @@ const { t, locale } = useI18n();
         </div>
         <div class="flex float-right h-12 items-center justify-evenly gap-8 mr-2">
             <RouterLink to="/documentation" class="flex flex-row justify-center gap-2">
-                <span class="hidden lg:block">{{ t('navigation.home') }}</span><span class="material-symbols-outlined">home</span>
+                <span class="hidden lg:block">{{ t('navigation.home') }}</span>
+                <span class="material-symbols-outlined">home</span>
             </RouterLink>
 
             <RouterLink to="/documentation/report" class="flex flex-row justify-center gap-2">
-                <span class="hidden lg:block">{{ t('navigation.report') }}</span><span class="material-symbols-outlined">report</span>
+                <span class="hidden lg:block">{{ t('navigation.report') }}</span>
+                <span class="material-symbols-outlined">report</span>
             </RouterLink>
         </div>
     </div>
