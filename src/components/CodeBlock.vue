@@ -16,6 +16,6 @@ let raw = await highlightCode(props.code, props.lang)
         <div class="bg-dark-surface w-full text-white p-1 rounded-t-md border-b border-dark-seperator">
             <em>{{ file }}</em>
         </div>
-        <div v-html="raw" class="*:p-1 *:rounded-b-md selection:bg-gradient-end/50"></div>
+        <div v-html="raw" class="*:p-1 *:rounded-b-md selection:bg-gradient-end/50 *:overflow-x-scroll lg:*:overflow-visible max-w-[calc(100vw-1rem)]"></div>
     </div>
 </template>
