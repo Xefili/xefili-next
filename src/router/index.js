@@ -1,22 +1,27 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import docRoutes from './docRoutes'
+import blogRoutes from './blogRoutes'
 
 const router = createRouter({
 	history: createWebHistory(import.meta.env.BASE_URL),
 	routes: [
 		...docRoutes,
+		...blogRoutes,
 		{
 			path: '/',
 			name: 'Home',
 			component: () => import('../views/HomeView.vue'),
 			meta: {
 				title: 'Home - Xefili.dev',
-			},
+			}
 		},
 		{
 			path: '/tools',
 			name: 'Tools',
 			component: () => import('@/views/ToolsView.vue'),
+			meta: {
+				title: 'Tools - Xefili.dev',
+			}
 		},
 	],
 })
