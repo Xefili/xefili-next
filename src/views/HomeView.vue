@@ -19,18 +19,6 @@ import CodeBlock from '@/components/CodeBlock.vue';
                 <DefaultCard title="The Documentation" fab-icon="description">Full developer documentation, available in 3 languages. Includes API documentation.</DefaultCard>
                 <DefaultCard title="The Tools" fab-icon="construction">A small collections of helpful tools and inspiration, which helped me create this website.</DefaultCard>
             </div>
-
-            <Suspense>
-                <CodeBlock class="mt-8" file="Xefili.dev (.vue)" lang="vue" code='<script setup>
-console.log("Xefili.dev now in Vue!");
-</script>
-
-<template>
-    <div>
-        {{ wooow }}
-    </div>
-</template>'/>
-            </Suspense>
         </div>
     </div>
 </template>
